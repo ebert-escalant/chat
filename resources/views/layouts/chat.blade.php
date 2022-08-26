@@ -27,7 +27,7 @@
         <div class="absolute left-0 top-0 w-screen ">
             <div class="container-chat mx-auto">
                 {{ $slot }}
-                {{ config('app.env') }} 
+                
             </div>
         </div>  
 
