@@ -35,7 +35,6 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 window.Echo = new Echo({
     broadcaster: 'pusher',
     key: window.PUSHER_APP_KEY,
-    cluster: import.meta.env.VITE_PUSHER_APP_CLUSTER,
     wsHost: window.location.hostname,
     wsPort: window.APP_ENV ? 6002 : 6001,
     wssPort: window.APP_ENV ? 6002 : 6001,
