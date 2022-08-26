@@ -22,7 +22,6 @@
     </head>
     <body class="font-sans antialiased">
         <div class="h-32 bg-sky-600">
-            {{ config('app.env') }}
         </div>
         <div class="absolute left-0 top-0 w-screen ">
             <div class="container-chat mx-auto">
