@@ -45,7 +45,7 @@ return [
                 'encrypted' => true,
                 'host' => '127.0.0.1',
                 'port' => 6001,
-                'scheme' => 'http'
+                'scheme' => env('APP_ENV', 'local') === 'local' ? 'http':'https',
             ],
             'client_options' => [
                 // Guzzle client options: https://docs.guzzlephp.org/en/stable/request-options.html
